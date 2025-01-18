@@ -1,0 +1,39 @@
+/* Animal card container */
+.animaShow {
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.animaShow:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Animal images */
+.animal {
+    height: 180px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Heart icon for likes */
+.Like {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 30px;
+    height: auto;
+    transition: transform 0.2s ease;
+}
+
+.Like:hover {
+    transform: scale(1.2);
+}
